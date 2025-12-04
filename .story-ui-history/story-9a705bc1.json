@@ -1,0 +1,14 @@
+{
+  "storyId": "story-9a705bc1",
+  "title": "Story 9a705bc1",
+  "versions": [
+    {
+      "id": "c5bb152b6683ec18",
+      "timestamp": 1764733029328,
+      "prompt": "Create a Vuetify card with VCard, title, and description",
+      "code": "import React from 'react';\nimport type { Meta, StoryObj } from '@storybook/vue3';\nimport { VCard } from 'vuetify/components/lib/components/VCard';\n\nconst meta = {\n  title: 'Generated/Simple Card',\n  component: VCard,\n  parameters: {\n    layout: 'centered',\n  },\n} satisfies Meta<typeof VCard>;\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Default: Story = {\n  render: () => ({\n    components: { VCard },\n    template: `\n      <VCard\n        title=\"Card Title\"\n        subtitle=\"Card Description\"\n        style=\"width: 400px; padding: 16px;\"\n      >\n        <template v-slot:text>\n          <p>This is a simple Vuetify card with a title and description. You can add more content here as needed.</p>\n        </template>\n      </VCard>\n    `,\n  }),\n};\n\nexport const WithActions: Story = {\n  render: () => ({\n    components: { VCard },\n    template: `\n      <VCard\n        title=\"Interactive Card\"\n        subtitle=\"Card with actions\"\n        style=\"width: 400px;\"\n      >\n        <template v-slot:text>\n          <p>This card includes action buttons at the bottom for user interaction.</p>\n        </template>\n        <template v-slot:actions>\n          <button style=\"margin: 8px; padding: 8px 16px; cursor: pointer;\">Action 1</button>\n          <button style=\"margin: 8px; padding: 8px 16px; cursor: pointer;\">Action 2</button>\n        </template>\n      </VCard>\n    `,\n  }),\n};",
+      "fileName": "story-9a705bc1"
+    }
+  ],
+  "currentVersionId": "c5bb152b6683ec18"
+}

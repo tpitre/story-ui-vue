@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Primary Button - Vuetify",
+    "fileName": "primary-button-vuetify-c41b4e5f.stories.ts",
+    "storyId": "story-c41b4e5f",
+    "hash": "c41b4e5f",
+    "createdAt": "2025-12-02T18:08:07.415Z",
+    "updatedAt": "2025-12-03T21:55:55.962Z",
+    "prompt": "Create a primary button using Vuetify v-btn component"
+  },
+  {
+    "title": "Secondary Button - Vuetify VBtn",
+    "fileName": "secondary-button-vuetify-vbtn-0f1480d8.stories.tsx",
+    "storyId": "story-0f1480d8",
+    "hash": "0f1480d8",
+    "createdAt": "2025-12-02T18:22:17.102Z",
+    "updatedAt": "2025-12-02T18:22:17.102Z",
+    "prompt": "Create a secondary button with Vuetify using VBtn component"
+  },
+  {
+    "title": "Product Card with Title Description and Price",
+    "fileName": "product-card-with-title-description-and-price-473c3e52.stories.tsx",
+    "storyId": "story-473c3e52",
+    "hash": "473c3e52",
+    "createdAt": "2025-12-03T03:48:26.090Z",
+    "updatedAt": "2025-12-03T03:48:26.090Z",
+    "prompt": "Create a simple card with Vuetify showing a product with title, description and price"
+  },
+  {
+    "title": "Sale Badge - 25 OFF Corner",
+    "fileName": "sale-badge-25-off-corner-a6d2d439.stories.tsx",
+    "storyId": "story-a6d2d439",
+    "hash": "a6d2d439",
+    "createdAt": "2025-12-03T03:52:07.988Z",
+    "updatedAt": "2025-12-03T03:52:07.988Z",
+    "prompt": "Add a sale badge showing \"25% OFF\" in the top right corner of the card"
+  },
+  {
+    "title": "Primary Color Button",
+    "fileName": "primary-color-button-372dbb15.stories.tsx",
+    "storyId": "story-372dbb15",
+    "hash": "372dbb15",
+    "createdAt": "2025-12-03T03:57:19.511Z",
+    "updatedAt": "2025-12-03T03:57:19.511Z",
+    "prompt": "Create a simple Vuetify button with primary color"
+  },
+  {
+    "title": "Simple Card",
+    "fileName": "simple-card-8ff7e21f.stories.tsx",
+    "storyId": "story-8ff7e21f",
+    "hash": "8ff7e21f",
+    "createdAt": "2025-12-03T21:34:13.351Z",
+    "updatedAt": "2025-12-03T21:34:13.351Z",
+    "prompt": "Create a simple card"
+  }
+]
