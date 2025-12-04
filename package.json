@@ -12,6 +12,7 @@
     "story-ui": "npx story-ui start --port 4103"
   },
   "dependencies": {
+    "@fontsource/roboto": "^5.2.9",
     "@mdi/font": "^7.4.47",
     "@tpitre/story-ui": "^3.7.0",
     "vue": "^3.5.24",
