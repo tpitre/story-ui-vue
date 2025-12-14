@@ -52,5 +52,14 @@
     "createdAt": "2025-12-03T21:34:13.351Z",
     "updatedAt": "2025-12-03T21:34:13.351Z",
     "prompt": "Create a simple card"
+  },
+  {
+    "title": "Simple Alert Component - Vuetify",
+    "fileName": "simple-alert-component-vuetify-75db1b73.stories.ts",
+    "storyId": "story-75db1b73",
+    "hash": "75db1b73",
+    "createdAt": "2025-12-13T23:27:23.782Z",
+    "updatedAt": "2025-12-13T23:28:15.997Z",
+    "prompt": "Change the alert color to red"
   }
 ]
