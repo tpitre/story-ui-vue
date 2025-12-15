@@ -46,12 +46,12 @@
   },
   {
     "title": "Simple Card",
-    "fileName": "simple-card-8ff7e21f.stories.tsx",
-    "storyId": "story-8ff7e21f",
-    "hash": "8ff7e21f",
+    "fileName": "simple-card-dd09254d.stories.ts",
+    "storyId": "story-dd09254d",
+    "hash": "dd09254d",
     "createdAt": "2025-12-03T21:34:13.351Z",
-    "updatedAt": "2025-12-03T21:34:13.351Z",
-    "prompt": "Create a simple card"
+    "updatedAt": "2025-12-14T23:21:05.883Z",
+    "prompt": "A simple card"
   },
   {
     "title": "Simple Alert Component - Vuetify",
@@ -61,5 +61,32 @@
     "createdAt": "2025-12-13T23:27:23.782Z",
     "updatedAt": "2025-12-13T23:28:15.997Z",
     "prompt": "Change the alert color to red"
+  },
+  {
+    "title": "Vuetify Card with Title and Button",
+    "fileName": "vuetify-card-with-title-and-button-4a4185fc.stories.ts",
+    "storyId": "story-4a4185fc",
+    "hash": "4a4185fc",
+    "createdAt": "2025-12-14T21:15:51.791Z",
+    "updatedAt": "2025-12-14T21:15:51.791Z",
+    "prompt": "Create a simple Vuetify card with a title, subtitle, and action button"
+  },
+  {
+    "title": "Simple Vuetify Alert",
+    "fileName": "simple-vuetify-alert-9a8c0cd4.stories.ts",
+    "storyId": "story-9a8c0cd4",
+    "hash": "9a8c0cd4",
+    "createdAt": "2025-12-14T21:16:33.139Z",
+    "updatedAt": "2025-12-14T21:16:33.139Z",
+    "prompt": "Create a simple Vuetify alert component"
+  },
+  {
+    "title": "Chip Component",
+    "fileName": "chip-component-2957c691.stories.ts",
+    "storyId": "story-2957c691",
+    "hash": "2957c691",
+    "createdAt": "2025-12-14T23:46:16.550Z",
+    "updatedAt": "2025-12-14T23:46:16.550Z",
+    "prompt": "A chip component"
   }
 ]

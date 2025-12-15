@@ -1,0 +1,14 @@
+{
+  "storyId": "simple-card-dd09254d.stories.ts",
+  "title": "Simple Card Dd09254d.Stories.Ts",
+  "versions": [
+    {
+      "id": "cb1a9f63f0d11751",
+      "timestamp": 1765754465884,
+      "prompt": "A simple card",
+      "code": "import type { Meta, StoryObj } from '@storybook/vue3';\nimport { VCard } from 'vuetify/components';\nimport { VBtn } from 'vuetify/components';\nimport { VImg } from 'vuetify/components';\n\nconst meta: Meta<typeof VCard> = {\n  title: 'Generated/Simple Card',\n  id: 'simple-card-dd09254d',\n  component: VCard,\n  tags: ['autodocs'],\n  parameters: { \n    layout: 'centered',\n  },\n  argTypes: {\n    variant: {\n      control: 'select',\n      options: ['elevated', 'flat', 'tonal', 'outlined', 'text', 'plain'],\n    },\n  },\n};\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Default: Story = {\n  render: (args) => ({\n    components: { VCard, VBtn },\n    setup() {\n      return { args };\n    },\n    template: `\n      <v-card v-bind=\"args\" style=\"width: 400px\">\n        <template #title>Card Title</template>\n        <template #text>\n          This is a simple card component with some example content. \n          Cards are useful for displaying grouped information.\n        </template>\n        <template #actions>\n          <v-btn color=\"primary\">Action</v-btn>\n          <v-btn>Cancel</v-btn>\n        </template>\n      </v-card>\n    `,\n  }),\n  args: {\n    variant: 'elevated',\n  },\n};\n\nexport const Outlined: Story = {\n  render: (args) => ({\n    components: { VCard, VBtn },\n    setup() {\n      return { args };\n    },\n    template: `\n      <v-card v-bind=\"args\" style=\"width: 400px\">\n        <template #title>Outlined Card</template>\n        <template #text>\n          This card uses the outlined variant with a border instead of elevation.\n        </template>\n        <template #actions>\n          <v-btn variant=\"outlined\">Learn More</v-btn>\n        </template>\n      </v-card>\n    `,\n  }),\n  args: {\n    variant: 'outlined',\n  },\n};\n\nexport const WithImage: Story = {\n  render: (args) => ({\n    components: { VCard, VBtn, VImg },\n    setup() {\n      return { args };\n    },\n    template: `\n      <v-card v-bind=\"args\" style=\"width: 400px\">\n        <v-img src=\"https://picsum.photos/400/200\" alt=\"Card image\" height=\"200\"></v-img>\n        <template #title>Card with Image</template>\n        <template #text>\n          A card can include images to provide visual context for the content.\n        </template>\n        <template #actions>\n          <v-btn color=\"primary\">View</v-btn>\n          <v-btn>Share</v-btn>\n        </template>\n      </v-card>\n    `,\n  }),\n  args: {\n    variant: 'elevated',\n  },\n};",
+      "fileName": "simple-card-dd09254d.stories.ts"
+    }
+  ],
+  "currentVersionId": "cb1a9f63f0d11751"
+}
